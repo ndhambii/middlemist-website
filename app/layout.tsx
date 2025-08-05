@@ -10,7 +10,7 @@ const font = Quicksand({
 
 export const metadata: Metadata = {
   title: "MiddleMist",
-  description: "Depilação a Cera Feminina em Maputo",
+  description: "Depilação Feminina à Cera em Maputo",
 };
 
 export default function RootLayout({
