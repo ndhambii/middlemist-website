@@ -23,7 +23,7 @@ export const navLinks = [
   },
   {
     id: 5,
-    name: "Agendamento",
+    name: "Marcações",
     url: "/",
   },
 ];
