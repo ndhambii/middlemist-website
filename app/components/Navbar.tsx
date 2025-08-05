@@ -26,7 +26,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="font-bold">
-          <button className="bg-pink-500 shadow-lg text-white rounded-full py-3 px-12 bg-gradient-to-r from-pink-400 to-pink-600 hover:bg-gradient-to-r hover:from-pink-600 hover:to-pink-400 active:bg-gradient-to-r active:from-pink-800 active:to-pink-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-pink-300">
+          <button className="cursor-pointer bg-pink-500 shadow-lg text-white rounded-full py-3 px-12 bg-gradient-to-r from-pink-400 to-pink-600 hover:bg-gradient-to-r hover:from-pink-600 hover:to-pink-400 active:bg-gradient-to-r active:from-pink-800 active:to-pink-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-pink-300">
             Contactar
           </button>
         </div>
