@@ -5,7 +5,7 @@ import { navLinks } from "../constants.tsx/constants";
 const Navbar = () => {
   return (
     <div className="">
-      <nav className="flex items-center justify-between border border-pink-300 bg-gradient-to-r from-transparent via-pink-100 to-transparent rounded-full mt-5 py-3 px-8 w-[90%] mx-auto">
+      <nav className="fixed z-[10000] flex items-center justify-between border border-pink-300 bg-gradient-to-r from-transparent via-pink-100 to-transparent rounded-full mt-5 py-3 px-8 w-[90%] mx-auto">
         <div>
           <Link href="/">
             <h1 className="text-3xl">MiddleMist</h1>
