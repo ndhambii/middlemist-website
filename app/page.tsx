@@ -1,7 +1,14 @@
 import React from "react";
+import Acerca from "./components/Acerca";
+import { Servicos } from "./components/Servicos";
 
 const Home = () => {
-  return <div className="min-h-[200vh]">Home</div>;
+  return (
+    <>
+      <Acerca />
+      <Servicos />
+    </>
+  );
 };
 
 export default Home;
