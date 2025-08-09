@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} antialiased min-h-screen bg-[url('/background.png')] bg-cover bg-no-repeat font-semibold h-[100%]`}
+        className={`${font.className} scroll-smooth antialiased min-h-screen bg-[url("/background.png")] bg-cover bg-no-repeat font-semibold h-[100%] `}
       >
         <header>
           <Navbar />

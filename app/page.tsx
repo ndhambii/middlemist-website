@@ -1,12 +1,16 @@
 import React from "react";
 import Acerca from "./components/Acerca";
-import { Servicos } from "./components/Servicos";
+import Precos from "./components/Precos";
+import Testemunhos from "./components/Testemunhos";
+import Footer from "./components/Footer";
 
 const Home = () => {
   return (
     <>
       <Acerca />
-      <Servicos />
+      <Precos />
+      <Testemunhos />
+      <Footer />
     </>
   );
 };
