@@ -43,7 +43,7 @@ export default function Marcacoes() {
             <ul className="mt-3 space-y-2 text-gray-700">
               <li className="flex items-center gap-2">
                 <span className="inline-grid place-items-center w-6 h-6 rounded-full bg-[#ecac99]/25">
-                  <FiScissors />
+                  <FiMapPin />
                 </span>
                 Nas nossas instalações
               </li>
