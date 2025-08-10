@@ -17,8 +17,7 @@ const Navbar = () => {
     <div className={`text-base`}>
       <nav
         className={`fixed left-1/2 transform -translate-x-1/2 z-[1000] backdrop-blur-sm flex items-center justify-between border border-pink-300 hover:shadow-md
-       transition-all duration-600 
-      bg-gradient-to-r from-transparent via-[#f7e5d9] to-transparent  rounded-full mt-2 py-1 px-3 w-[95%] xl:mt-5 xl:py-3 xl:px-8 xl:w-[90%] mx-auto `}
+       transition-all duration-600 bg-gradient-to-r from-transparent via-[#f7e5d9] to-transparent  rounded-full mt-2 py-3 px-3 w-[95%] xl:mt-5 xl:py-3 xl:px-8 xl:w-[90%] mx-auto `}
       >
         <div>
           <Link href="/">
