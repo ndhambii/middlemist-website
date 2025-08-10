@@ -20,7 +20,7 @@ export const navLinks = [
   {
     id: 4,
     name: "Marcações",
-    url: "#",
+    url: "#marcacoes",
   },
 ];
 

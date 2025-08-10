@@ -1,4 +1,3 @@
-// components/BookingInfo.tsx
 import {
   FiClock,
   FiMapPin,
@@ -8,10 +7,8 @@ import {
 } from "react-icons/fi";
 
 export default function Marcacoes() {
-  const numeroWhats = "25884XXXXXXX"; // <- substitui pelo teu número
-
   return (
-    <section id="marcacoes" className="bg-[#f7e5d9] px-4 py-2 md:py-20">
+    <section id="marcacoes" className="bg-[#f7e5d9] px-4 py-1 md:py-2">
       <div className="mx-auto max-w-4xl">
         {/* Header */}
         <div className="text-center mb-10">
@@ -23,9 +20,7 @@ export default function Marcacoes() {
           </p>
         </div>
 
-        {/* Grid de cartões */}
         <div className="grid gap-5 md:grid-cols-3">
-          {/* Localização */}
           <div className="rounded-2xl p-5 bg-white/70 backdrop-blur shadow-lg border border-white/50">
             <div className="flex items-center gap-3">
               <div className="p-2 rounded-xl bg-gradient-to-br from-[#ecac99] to-[#dca38e] text-white shadow">
@@ -38,7 +33,6 @@ export default function Marcacoes() {
             </p>
           </div>
 
-          {/* Serviços */}
           <div className="rounded-2xl p-5 bg-white/70 backdrop-blur shadow-lg border border-white/50">
             <div className="flex items-center gap-3">
               <div className="p-2 rounded-xl bg-gradient-to-br from-[#ecac99] to-[#dca38e] text-white shadow">
@@ -62,7 +56,6 @@ export default function Marcacoes() {
             </ul>
           </div>
 
-          {/* Horários */}
           <div className="rounded-2xl p-5 bg-white/70 backdrop-blur shadow-lg border border-white/50">
             <div className="flex items-center gap-3">
               <div className="p-2 rounded-xl bg-gradient-to-br from-[#ecac99] to-[#dca38e] text-white shadow">
@@ -93,7 +86,6 @@ export default function Marcacoes() {
           </div>
         </div>
 
-        {/* CTA */}
         <div className="mt-8 flex justify-center">
           <a
             href="https://wa.me/c/258870715416"

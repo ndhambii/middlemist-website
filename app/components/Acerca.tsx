@@ -19,7 +19,7 @@ const Hero = () => {
           />
         </div>
         <h1 className="md:text-center md:text-6xl text-4xl font-bold mb-2 mx-2 mt-5">
-          <span className="bg-gradient-to-r from-red-500 via-pink-500 to-[#f7e4d9] bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r  from-red-500 via-pink-500 to-[#f7e4d9] bg-clip-text text-transparent">
             Welcome
           </span>
           {"   "}
