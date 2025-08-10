@@ -23,7 +23,7 @@ export default function Precos() {
         </header>
 
         <div
-          className={`overflow-x-auto rounded-2xl border border-rose-200 shadow-sm`}
+          className={`overflow-x-auto rounded-2xl border border-rose-200 shadow-xl`}
         >
           <table className="min-w-full text-left">
             <caption className="sr-only">Lista de serviços e preços</caption>

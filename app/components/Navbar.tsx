@@ -68,14 +68,23 @@ const Navbar = () => {
         <ul className={`flex flex-col items-center $`}>
           {navLinks.map((item) => {
             return (
-              <li key={item.id} className="py-5 px-6">
+              <li
+                onClick={closeSideHandler}
+                key={item.id}
+                className="py-5 px-6"
+              >
                 <Link href={item.url}>{item.name}</Link>
               </li>
             );
           })}
         </ul>
-        <button className="bg-gradient-to-r from-pink-400 to-pink-600 text-white font-bold py-1 px-5 rounded-full">
-          Contactar
+        <button
+          onClick={closeSideHandler}
+          className="bg-gradient-to-r from-pink-400 to-pink-600 text-white font-bold py-1 px-5 rounded-full"
+        >
+          <a target="_blank" href="https://wa.me/c/258870715416">
+            Contactar{" "}
+          </a>
         </button>
 
         <p className="pb-3">MiddleMist</p>

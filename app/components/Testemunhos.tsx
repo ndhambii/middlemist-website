@@ -51,7 +51,7 @@ export default function Testemunhos() {
                         width={40}
                         height={40}
                         alt={`Foto de ${t.name}`}
-                        className="rounded-full object-cover border border-rose-200 shadow-sm"
+                        className="rounded-full object-cover border border-rose-200 shadow-lg"
                       />
                     ) : (
                       <span className="text-sm font-semibold">
