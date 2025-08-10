@@ -56,7 +56,7 @@ const Navbar = () => {
       </nav>
       {/* Mobile Nav*/}
       <div
-        className={`xl:hidden fixed ${sideOpen} transform transition-all duration-500 delay-300 right-0 w-[80%] border border-pink-300 h-[100vh] z-[1000002] bg-gradient-to-l from-[#f7e5d9] to-[#f7e5d9]/65 rounded-l-xl flex flex-col items-center shadow-2xl backdrop-blur-sm justify-between`}
+        className={`xl:hidden fixed ${sideOpen} transform transition-all duration-500 delay-300 right-0 w-[80%] border border-pink-300 h-screen z-[1000002] bg-gradient-to-l from-[#f7e5d9] to-[#f7e5d9]/65 rounded-l-xl flex flex-col items-center shadow-2xl backdrop-blur-sm justify-between`}
       >
         <button>
           <GiTireIronCross
@@ -86,7 +86,7 @@ const Navbar = () => {
           </a>
         </button>
 
-        <p className="pb-3">MiddleMist</p>
+        <p className="pb-3 mb-30">MiddleMist</p>
       </div>
     </div>
   );
