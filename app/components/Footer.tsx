@@ -1,16 +1,13 @@
 import Link from "next/link";
 import { navLinks } from "../constants.tsx/constants";
 
-// components/Footer.tsx
 export default function Footer() {
   return (
     <footer className="shadow-inner bg-[#dca38e]/80">
       <div className="py-6 bg-gradient-to-b from-[#f7e5d9] to-[#dca38e]"></div>
       <div className="max-w-6xl mx-auto px-4  flex flex-col md:flex-row justify-between items-center gap-4">
-        {/* Logo / Brand */}
         <h2 className="text-lg pt-4 font-bold text-white">MiddleMist</h2>
 
-        {/* Navigation Links className="hover:text-pink-500 transition-colors"*/}
 
         <nav className="flex flex-wrap justify-center gap-4 text-sm">
           {navLinks.map((item) => {
@@ -25,7 +22,6 @@ export default function Footer() {
           })}
         </nav>
 
-        {/* Social Links */}
         <div className="flex gap-3">
           <a
             target="_blank"
@@ -60,7 +56,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom text */}
       <div className="text-center text-xs text-gray-500 mt-4 pb-10">
         © {new Date().getFullYear()} MiddleMist. Todos os direitos reservados.
       </div>

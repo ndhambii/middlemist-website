@@ -1,6 +1,5 @@
 import { precos } from "../constants.tsx/constants";
 
-// app/components/PricingSection.tsx
 export default function Precos() {
   return (
     <section
@@ -65,7 +64,6 @@ export default function Precos() {
           </table>
         </div>
 
-        {/* Helper row with CTA */}
         <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
           <p className="text-sm text-rose-700">* Valores em meticais.</p>
           <a

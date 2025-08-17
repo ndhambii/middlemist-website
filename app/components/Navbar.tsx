@@ -54,7 +54,7 @@ const Navbar = () => {
           />
         </button>
       </nav>
-      {/* Mobile Nav*/}
+      {/* Mobile Navbar*/}
       <div
         className={`xl:hidden fixed ${sideOpen} transform transition-all duration-500 delay-300 right-0 w-[80%] border border-pink-300 h-screen z-[1000002] bg-gradient-to-l from-[#f7e5d9] to-[#f7e5d9]/65 rounded-l-xl flex flex-col items-center shadow-2xl backdrop-blur-sm justify-between`}
       >

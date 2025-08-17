@@ -10,7 +10,6 @@ export default function Marcacoes() {
   return (
     <section id="marcacoes" className="bg-[#f7e5d9] px-4 py-1 md:py-2">
       <div className="mx-auto max-w-4xl">
-        {/* Header */}
         <div className="text-center mb-10">
           <h2 className="mt-3 text-[#8d4024] text-3xl md:text-4xl font-bold">
             Agende a sua Sessão

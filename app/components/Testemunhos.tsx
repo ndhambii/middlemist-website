@@ -1,4 +1,3 @@
-// app/components/TestimonialsSection.tsx
 
 import { testimonials } from "../constants.tsx/constants";
 
@@ -39,7 +38,6 @@ export default function Testemunhos() {
               key={t.name}
               className="group relative overflow-hidden rounded-3xl border border-rose-200 bg-white p-6 shadow-sm transition hover:shadow-md"
             >
-              {/* soft gradient sheen */}
               <div className="pointer-events-none absolute -top-12 -right-12 h-32 w-32 rounded-full bg-gradient-to-br from-pink-300/20 to-rose-200/10 blur-2xl" />
 
               <div className="mb-4 flex items-center justify-between">
